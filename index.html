@@ -23,22 +23,68 @@
 </head>
 <body>
     <!-- Banner Section started here -->
-    <section class="grid grid-cols-2 container broder border-red-500 bg-amber-200">
-        <div class="banner-left">
-            <h1>It's good<br>
+    <section class="grid md:grid-cols-2 grid-cols-1 container mx-auto  mt-[68px] " >
+        <div class="banner-left space-y-[30px]">
+            <h1 class="text-[#1C1C1C] text-[5rem] font-extrabold">It's good<br>
             tea time at The<br>
             Tea House</h1>
-            <p>Tea and Botanical Solutions Supplier Give Optimum<br>
+            <p class="text-[#777777] font-medium text-[1.125rem]">Tea and Botanical Solutions Supplier Give Optimum<br>
             Satisfaction To Your Taste Buds.</p>
-            <button>
+            <button class="text-white text-[1.25rem] font-bold bg-gradient-to-r from-[#FF0000] to-[#FF8938] px-5 py-4 rounded-[10px] space-x-2.5">
                 <span>Explore More</span>
-                <span><i class="fa-solid fa-arrow-right"></i></span>
+                <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span>
             </button>
         </div>
-        <div class="banner-right">
+        <!-- Banner Image here -->
+        <div class="banner-right  flex justify-end items-end relative">
             <img src="./images/banner.png" alt="">
+            <div class="bg-white flex gap-2 absolute bottom-8 left-50 px-7 py-5 rounded-xl shadow-[0_7px_50px_0_rgba(0,0,0,0.06)]">
+                <div>
+                    <div><img src="./images/Group 5.png" alt=""></div>
+                </div>
+                <div>
+                    <h4 class="text-3xl text-[#1C1C1C] font-extrabold">5.00</h4>
+                    <p class="text-[#777777] font-semibold text-base">Trust Pilot Ratings</p>
+                </div>
+            </div>
+            
         </div>
     </section>
+
+    <!-- Featured Section started here -->
+     <section class="container mx-auto my-35">
+        <div class="section-header max-w-[65%] mx-auto text-center  space-y-5">
+            <h2 class="text-[#1C1C1C] text-[2.81rem] font-extrabold">Our Featured Products</h2>
+            <p class="text-[#777777] font-medium text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="saection-item py-12 grid md:grid-cols-4 grid-cols-2 gap-6">
+            <!-- Card-1 -->
+            <div class="card bg-linear-to-b from-gray-200 to-white p-7.5 text-center rounded-xl">
+                <img class="mx-auto mb-7.5" src="./images/tea-1.png" alt="">
+                <h3 class="text-[#1C1C1C] text-[1.56rem] font-extrabold mb-2.5">Milk Tea</h3>
+                <p class="text-[#777777] font-medium text-[1rem]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- Card-1 -->
+            <div class="card bg-linear-to-b from-gray-200 to-white p-7.5 text-center rounded-xl">
+                <img class="mx-auto mb-7.5" src="./images/tea-2.png" alt="">
+                <h3 class="text-[#1C1C1C] text-[1.56rem] font-extrabold mb-2.5">Black Tea</h3>
+                <p class="text-[#777777] font-medium text-[1rem]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- Card-1 -->
+            <div class="card bg-linear-to-b from-gray-200 to-white p-7.5 text-center rounded-xl">
+                <img class="mx-auto mb-7.5" src="./images/tea-3.png" alt="">
+                <h3 class="text-[#1C1C1C] text-[1.56rem] font-extrabold mb-2.5">Lemon Tea</h3>
+                <p class="text-[#777777] font-medium text-[1rem]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <!-- Card-1 -->
+            <div class="card bg-linear-to-b from-gray-200 to-white p-7.5 text-center rounded-xl">
+                <img class="mx-auto mb-7.5" src="./images/tea-4.png" alt="">
+                <h3 class="text-[#1C1C1C] text-[1.56rem] font-extrabold mb-2.5">Green Tea</h3>
+                <p class="text-[#777777] font-medium text-[1rem]">Creamer could be replaced by fresh milk</p>
+            </div>
+            
+        </div>
+     </section>
 
     
 </body>
